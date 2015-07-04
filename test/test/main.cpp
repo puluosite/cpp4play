@@ -1,6 +1,8 @@
 #include <iostream>
 #include <memory>
 
+#include "cpp11test.h"
+
 using namespace std;
 
 
@@ -91,6 +93,10 @@ int main() {
 	delete pb1;
 	delete pb2;
 	*/
+
+
+	Cpp11test c;
+	c.runAuto();
 	
 
 	
